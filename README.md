@@ -200,8 +200,13 @@ https://google.github.io/comprehensive-rust/exercises/day-3/solutions-morning.ht
 
     - https://github.com/PoignardAzur/masonry-rs
 
+- slint-ui[![crates.io](https://img.shields.io/crates/v/slint.svg)](https://crates.io/crates/slint)![Crates.io](https://img.shields.io/crates/l/slint)![Downloads](https://img.shields.io/crates/d/slint.svg)<a href="https://github.com/slint-ui/slint"><img alt="githubicon" width="20px" src="https://user-images.githubusercontent.com/67513038/218287708-001511d7-1cce-42d3-92d2-4a61193b38f0.png" /></a>
+![star](https://img.shields.io/github/stars/slint-ui/slint.svg)
 
+  - Slint is a declarative GUI toolkit to build native user interfaces for Rust, C++, or JavaScript apps. 
 
+  - https://crates.io/crates/slint
+  - https://github.com/slint-ui/slint
 
 - Orbtk[![deprecated](http://badges.github.io/stability-badges/dist/deprecated.svg)](http://github.com/badges/stability-badges)[![crates.io](https://img.shields.io/crates/v/orbtk.svg)](https://crates.io/crates/orbtk)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
