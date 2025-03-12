@@ -8,8 +8,8 @@
 
 # gpu-arena 
 - [gpu-arena_비교해서 보기(readme.rst)](./001_GPU_arena/readme.rst)
-https://github.com/Vincent-Therrien/gpu-arena
-- [250307_The Chaotic State of GPU Programming | eisfrosch](https://youtu.be/9-DiGrnz8l8?si=XnXcMjdyT13c5qNr)
+- https://github.com/Vincent-Therrien/gpu-arena
+  - [250307_The Chaotic State of GPU Programming | eisfrosch](https://youtu.be/9-DiGrnz8l8?si=XnXcMjdyT13c5qNr)
 
 
 <hr />
