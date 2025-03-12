@@ -29,6 +29,7 @@ Click on the links in the leftmost column to access the corresponding subdirecto
 that the framework supports the application or device. ``N`` indicates that it does not support
 them.
 
+
 +------------------------------------------+----------------------------+-------------------------------------------+---------------+------------------+
 | Framework                                | Applications               | Devices                                   | Operating     | Shading / kernel |
 |                                          +----------+-----------------+-----+-------+-------+-----+---------------+ Systems       | language         |
