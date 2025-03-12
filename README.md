@@ -4,7 +4,70 @@
 - https://areweguiyet.com/
 - 레딧글 https://www.reddit.com/r/rust/comments/10wy4yw/rust_gui_framework/
 
-<hr>
+<hr />
+
+# A Guided Tour of GPU Programming Frameworks
+- https://github.com/Vincent-Therrien/gpu-arena
+  - [250307_The Chaotic State of GPU Programming | eisfrosch](https://youtu.be/9-DiGrnz8l8?si=XnXcMjdyT13c5qNr)
+ 
++++++++++++++++++++++++++++++++++++++++++++
+
+Self-contained projects that show how to install GPU programming frameworks, build
+GPU-accelerated programs, and execute them. Click on the links in the index table below to access
+the ``readme`` file of each project for more information.
+
+The projects are minimal examples, not complete tutorials. The ``readme`` files in each subdirectory
+provide references to more detailed resources. Contributions are welcome - you can enrich the
+current projects and even add other GPU programming frameworks!
+
+
+Project Index
+-------------
+
+Click on the links in the leftmost column to access the corresponding subdirectory.  ``Y`` indicates
+that the framework supports the application or device. ``N`` indicates that it does not support
+them.
+
++------------------------------------------+----------------------------+-------------------------------------------+---------------+------------------+
+| Framework                                | Applications               | Devices                                   | Operating     | Shading / kernel |
+|                                          +----------+-----------------+-----+-------+-------+-----+---------------+ Systems       | language         |
+|                                          | Graphics | General-purpose | CPU |Nvidia | Intel | AMD | Apple Silicon |               |                  |
++==========================================+==========+=================+=====+=======+=======+=====+===============+===============+==================+
+|`OpenGL <opengl/readme.md>`__             | Y        | Y (since        | N   | Y     | Y     | Y   | N             | Any           | GLSL             |
+|                                          |          | version 4.3,    |     |       |       |     |               | (deprecated   |                  |
+|                                          |          | 2012)           |     |       |       |     |               | on Mac)       |                  |
++------------------------------------------+----------+-----------------+-----+-------+-------+-----+---------------+---------------+------------------+
+|`Metal <metal/readme.md>`__               | Y*       | Y*              | N   | N     | N     | N   | Y             | Mac / iOS     | MSL              |
+|                                          |          |                 |     |       |       |     |               |               |                  |
++------------------------------------------+----------+-----------------+-----+-------+-------+-----+---------------+---------------+------------------+
+|`DirectX <directx/readme.md>`__           | Y        | Y               | N   | Y     | Y     | Y   | N             | Windows       | HLSL             |
++------------------------------------------+----------+-----------------+-----+-------+-------+-----+---------------+---------------+------------------+
+|`Vulkan <vulkan/readme.md>`__             | Y        | Y (implemented  | N   | Y     | Y     | Y   | N             | Any           | Anything that    |
+|                                          |          | with kompute)   |     |       |       |     |               | (deprecated   | compiles to      |
+|                                          |          |                 |     |       |       |     |               | on Mac)       | SPIR-V           |
++------------------------------------------+----------+-----------------+-----+-------+-------+-----+---------------+---------------+------------------+
+|`WebGPU <webgpu/readme.md>`__             | Y        | Y               | N   | Y     | Y     | Y   | Y             | Any           | WGSL             |
+|                                          |          |                 |     |       |       |     |               |               |                  |
++------------------------------------------+----------+-----------------+-----+-------+-------+-----+---------------+---------------+------------------+
+|`CUDA <cuda/readme.md>`__                 | N        | Y               | N   | Y     | N     | N   | N             | Windows,      | CUDA             |
+|                                          |          |                 |     |       |       |     |               | Linux         |                  |
++------------------------------------------+----------+-----------------+-----+-------+-------+-----+---------------+---------------+------------------+
+|`OpenCL <opencl/readme.md>`__             | N        | Y               | Y   | Y     | Y     | Y   | Y             | Any           | OpenCL C         |
+|                                          |          |                 |     |       |       |     |               | (deprecated   |                  |
+|                                          |          |                 |     |       |       |     |               | on Mac)       |                  |
++------------------------------------------+----------+-----------------+-----+-------+-------+-----+---------------+---------------+------------------+
+|`SYCL <sycl/readme.md>`__                 | N        | Y*              | Y   | Y     | Y     | Y   | Y             | Any (CPU-only | C++ extensions   |
+|                                          |          |                 |     |       |       |     |               | on Mac)       |                  |
++------------------------------------------+----------+-----------------+-----+-------+-------+-----+---------------+---------------+------------------+
+|`Triton <triton/readme.md>`__             | N        | Y               | N   | Y     | N     | Y   | N             | Linux         | Decorated Python |
+|                                          |          |                 |     |       |       |     |               |               | functions        |
++------------------------------------------+----------+-----------------+-----+-------+-------+-----+---------------+---------------+------------------+
+|`CPU <cpu/readme.md>`__ (baseline)        | N        | Y               | Y   | N     | N     | N   | N             | Any           | N/A              |
++------------------------------------------+----------+-----------------+-----+-------+-------+-----+---------------+---------------+------------------+
+
+- ``*``: The corresponding example is not implemented in the project.
+
+<hr />
     
 - **[Vortex - OpenCL 호환 가능한 RISC-V 아키텍처 기반의 풀스택 오픈소스 GPGPU](<https://news.hada.io/topic?id=14297&utm_source=discord&utm_medium=bot&utm_campaign=1480>)**
 - RISC-V ISA 확장을 기반으로 GPGPU를 지원하는 오픈 소스 하드웨어 및 소프트웨어 프로젝트  
