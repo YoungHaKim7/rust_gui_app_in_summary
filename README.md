@@ -10,10 +10,7 @@
 - [250307_The Chaotic State of GPU Programming | eisfrosch](https://youtu.be/9-DiGrnz8l8?si=XnXcMjdyT13c5qNr)
 
 
-A Guided Tour of GPU Programming Frameworks
-
-
- 
+A Guided Tour of GPU Programming Frameworks 
 +++++++++++++++++++++++++++++++++++++++++++
 
 Self-contained projects that show how to install GPU programming frameworks, build
