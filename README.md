@@ -1,5 +1,13 @@
 # rust_GUI_app
 
+# link
+
+- immediate mode는 공부할때 쓰는 공부용(최적화가 전혀 되지 않는다.)
+  - [(외부링크) What does "immediate mode" mean in OpenGL?](https://stackoverflow.com/questions/6733934/what-does-immediate-mode-mean-in-opengl)
+
+<hr />
+
+
 # Rust GUI 종류(전체적으로 찾아보기)
 - https://areweguiyet.com/
 - 레딧글 https://www.reddit.com/r/rust/comments/10wy4yw/rust_gui_framework/
