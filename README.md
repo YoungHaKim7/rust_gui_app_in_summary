@@ -125,16 +125,6 @@ https://google.github.io/comprehensive-rust/exercises/day-3/solutions-morning.ht
 
 <hr>
 
-# 최적화 문제로 경계해서 봐야할 프로젝트(egui 는  immediate mode로 최적화가 전혀 안됨 , egui삭제!!!)
-- (egui)[![crates.io](https://img.shields.io/crates/v/egui.svg)](https://crates.io/crates/egui)![Crates.io](https://img.shields.io/crates/l/egui)
-![wgpuDownloads](https://img.shields.io/crates/d/egui.svg)<a href="https://github.com/emilk/egui"><img alt="githubicon" width="20px" src="https://user-images.githubusercontent.com/67513038/218287708-001511d7-1cce-42d3-92d2-4a61193b38f0.png" /></a>
-![eguiustar](https://img.shields.io/github/stars/emilk/egui.svg)
-
-  - egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native
-
-  - https://github.com/emilk/egui
-  - [What does "immediate mode" mean in OpenGL?](https://stackoverflow.com/questions/6733934/what-does-immediate-mode-mean-in-opengl)
-
 <hr />
 
 # Window handling library in pure Rust
@@ -218,13 +208,7 @@ https://google.github.io/comprehensive-rust/exercises/day-3/solutions-morning.ht
 
     - https://github.com/PoignardAzur/masonry-rs
 
-- slint-ui[![crates.io](https://img.shields.io/crates/v/slint.svg)](https://crates.io/crates/slint)![Crates.io](https://img.shields.io/crates/l/slint)![Downloads](https://img.shields.io/crates/d/slint.svg)<a href="https://github.com/slint-ui/slint"><img alt="githubicon" width="20px" src="https://user-images.githubusercontent.com/67513038/218287708-001511d7-1cce-42d3-92d2-4a61193b38f0.png" /></a>
-![star](https://img.shields.io/github/stars/slint-ui/slint.svg)
 
-  - Slint is a declarative GUI toolkit to build native user interfaces for Rust, C++, or JavaScript apps. 
-
-  - https://crates.io/crates/slint
-  - https://github.com/slint-ui/slint
 
 - Orbtk[![deprecated](http://badges.github.io/stability-badges/dist/deprecated.svg)](http://github.com/badges/stability-badges)[![crates.io](https://img.shields.io/crates/v/orbtk.svg)](https://crates.io/crates/orbtk)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -237,11 +221,35 @@ https://google.github.io/comprehensive-rust/exercises/day-3/solutions-morning.ht
 
     - https://github.com/redox-os/orbtk
 
+# 최적화 문제로 경계해서 봐야할 프로젝트(egui 는  immediate mode로 최적화가 전혀 안됨 , egui삭제!!!)
+
+- Graphics: why immediate mode?
+  - https://users.rust-lang.org/t/graphics-why-immediate-mode/93356
+
+- (egui)[![crates.io](https://img.shields.io/crates/v/egui.svg)](https://crates.io/crates/egui)![Crates.io](https://img.shields.io/crates/l/egui)
+![wgpuDownloads](https://img.shields.io/crates/d/egui.svg)<a href="https://github.com/emilk/egui"><img alt="githubicon" width="20px" src="https://user-images.githubusercontent.com/67513038/218287708-001511d7-1cce-42d3-92d2-4a61193b38f0.png" /></a>
+![eguiustar](https://img.shields.io/github/stars/emilk/egui.svg)
+
+  - egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native
+
+  - https://github.com/emilk/egui
+  - [What does "immediate mode" mean in OpenGL?](https://stackoverflow.com/questions/6733934/what-does-immediate-mode-mean-in-opengl)
+
+
 - rui(이것도 immediate mode임 삭제!(egui랑 같이 삭제))
   - https://github.com/audulus/rui
   - https://crates.io/crates/rui
   - build status dependency status
   - Experimental Rust UI library, inspired by SwiftUI. Early days, but some stuff already works. rui will be used for a future version of Audulus
+
+- slint-ui도 immediate mode같은데 더 조사가 필요함
+- slint-ui[![crates.io](https://img.shields.io/crates/v/slint.svg)](https://crates.io/crates/slint)![Crates.io](https://img.shields.io/crates/l/slint)![Downloads](https://img.shields.io/crates/d/slint.svg)<a href="https://github.com/slint-ui/slint"><img alt="githubicon" width="20px" src="https://user-images.githubusercontent.com/67513038/218287708-001511d7-1cce-42d3-92d2-4a61193b38f0.png" /></a>
+![star](https://img.shields.io/github/stars/slint-ui/slint.svg)
+
+  - Slint is a declarative GUI toolkit to build native user interfaces for Rust, C++, or JavaScript apps. 
+
+  - https://crates.io/crates/slint
+  - https://github.com/slint-ui/slint
 
 <br>
 
