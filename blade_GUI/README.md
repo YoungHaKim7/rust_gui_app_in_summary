@@ -11,3 +11,6 @@
 
 # Vulkan bindings for Rust 
 - https://github.com/ash-rs/ash
+
+# 최신 뉴스
+- [(241212)Rust in AI Keynote with Dzmitry Malyshau - "In GPU we Rust" | Poly File Browser](https://youtu.be/92mwRCXvMVk?si=kBonIfaXmH9FVbtF)
