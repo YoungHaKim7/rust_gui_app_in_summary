@@ -237,6 +237,12 @@ https://google.github.io/comprehensive-rust/exercises/day-3/solutions-morning.ht
 
     - https://github.com/redox-os/orbtk
 
+- rui(이것도 immediate mode임 삭제!(egui랑 같이 삭제))
+  - https://github.com/audulus/rui
+  - https://crates.io/crates/rui
+  - build status dependency status
+  - Experimental Rust UI library, inspired by SwiftUI. Early days, but some stuff already works. rui will be used for a future version of Audulus
+
 <br>
 
 <hr>
