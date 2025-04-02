@@ -7,3 +7,6 @@
 
     - https://github.com/emilk/egui
 
+
+# (250102)Rust로 작성된 즉시 모드 GUI, Egui (egui.rs)
+- https://news.hada.io/topic?id=18453
