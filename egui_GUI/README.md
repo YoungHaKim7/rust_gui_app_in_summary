@@ -10,3 +10,6 @@
 
 # (250102)Rust로 작성된 즉시 모드 GUI, Egui (egui.rs)
 - https://news.hada.io/topic?id=18453
+
+# (영상모아 보기 )Komorebi Tiling Window Manager Development | Jeezy Codes
+- https://youtube.com/playlist?list=PLllZnrEJu89Cpu4tMO8LAg1m6gWYWLSGJ&si=OCbAAOvJKlgfYgfZ
