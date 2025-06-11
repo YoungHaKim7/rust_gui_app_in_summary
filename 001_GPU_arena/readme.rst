@@ -1,8 +1,10 @@
 gpu-arena
 =========
 
-- `English (en) <#a-guided-tour-of-gpu-frameworks>`_
-- `Français (fr) <#visite-guidée-de-cadres-logiciels-pour-processeurs-graphiques>`_
+- 오리지널 https://github.com/Vincent-Therrien/gpu-arena
+
+- `English (en) <https://github.com/Vincent-Therrien/gpu-arena#a-guided-tour-of-gpu-frameworks>`_
+- `Français (fr) <https://github.com/Vincent-Therrien/gpu-arena#visite-guidée-de-cadres-logiciels-pour-processeurs-graphiques>`_
 
 .. image:: assets/triangle.gif
    :width: 500
