@@ -83,6 +83,17 @@ https://google.github.io/comprehensive-rust/exercises/day-3/solutions-morning.ht
 
   - Druid is reasonably usable for some subset of applications and has a significant testing history, which ensures some stability and correctness. However we don't expect any major new features to be added to Druid. As such we don't recommend using Druid for brand new applications. If you insist, then at least make sure your application doesn't require a feature that Druid doesn't have, e.g. accessibility or 3D support.
 
+# FullStack GUI 
+- dioxus[![crates.io](https://img.shields.io/crates/v/dioxus.svg)](https://crates.io/crates/dioxus)![Crates.io](https://img.shields.io/crates/l/dioxus)
+![wgpuDownloads](https://img.shields.io/crates/d/dioxus.svg)<a href="https://github.com/DioxusLabs/dioxus"><img alt="githubicon" width="20px" src="https://user-images.githubusercontent.com/67513038/218287708-001511d7-1cce-42d3-92d2-4a61193b38f0.png" /></a>
+![druidstar](https://img.shields.io/github/stars/DioxusLabs/dioxus.svg)
+
+- Fullstack app framework for web, desktop, mobile, and more. 
+  - https://github.com/DioxusLabs/dioxus
+  - 피씨용 GUI멀티 플래폼(dioxus종속성이 있는 freya)
+    - https://github.com/marc2332/freya
+
+
 <hr>
 
 - floem[![crates.io](https://img.shields.io/crates/v/floem.svg)](https://crates.io/crates/floem)
