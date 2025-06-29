@@ -44,5 +44,9 @@
   - 원본(wine, Linux에서 Windows프로그램 돌리기)
     - https://gitlab.winehq.org/wine/wine
 
+# gui공부자료
+- https://users.rust-lang.org/t/gui-or-2d-game-crate-writing-some-drawing-app/79169
+- https://www.reddit.com/r/rust/comments/5j07bx/how_to_draw_a_pixel_to_the_screen/
+
 # 외국인의 작품
 - https://github.com/JohnScience/draw_on_screen
