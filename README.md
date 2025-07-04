@@ -22,6 +22,21 @@
 
 <hr />
 
+# C++ examples for the Vulkan graphics API 
+  - https://github.com/Rust-GPU/VulkanShaderExamples
+
+# 🐉 Making Rust a first-class language and ecosystem for GPU shaders 🚧[|🔝|](#link)
+- https://github.com/Rust-GPU/rust-gpu
+
+<hr />
+
+
+# **[GPU에 대한 기본 팩트들](<https://news.hada.io/topic?id=21644&utm_source=discord&utm_medium=bot&utm_campaign=1480>)**[|🔝|](#link)
+- **GPU**는 연산 속도가 메모리 접근 속도보다 월등히 빨라서, **메모리 계층 구조**가 성능의 병목을 일으킴
+- **연산 집약도(Arithmetic Intensity, AI)** 에 따라 연산이 메모리 바운드, 계산 바운드 상태로 구분되며, **A100 GPU**의 임계점은 약 13 FLOPs/Byte임
+- **성능 최적화** 주요 전략으로 연산 합치기(Fusio…
+
+<hr />
 
 # **[Vortex - OpenCL 호환 가능한 RISC-V 아키텍처 기반의 풀스택 오픈소스 GPGPU](<https://news.hada.io/topic?id=14297&utm_source=discord&utm_medium=bot&utm_campaign=1480>)**
 - RISC-V ISA 확장을 기반으로 GPGPU를 지원하는 오픈 소스 하드웨어 및 소프트웨어 프로젝트  
