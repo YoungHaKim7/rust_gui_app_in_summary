@@ -7,6 +7,22 @@
 
 <hr />
 
+# Vulkan vs OpenGL
+
+||Vulkan|OpenGL|
+|-|-|-|
+|Thread|Multithreading|Singlethreading|
+
+- 그림으로 이해
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Division_of_labor_cpu_and_gpu.svg/500px-Division_of_labor_cpu_and_gpu.svg.png" />
+
+- Vulkan
+  - https://vkguide.dev/docs/extra-chapter/multithreading/
+  - https://en.wikipedia.org/wiki/Vulkan
+
+- OpenGL
+  - https://en.wikipedia.org/wiki/OpenGL
 
 # Rust GUI 종류(전체적으로 찾아보기)
 - https://areweguiyet.com/
