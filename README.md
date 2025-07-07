@@ -21,6 +21,7 @@
 - Vulkan
   - https://vkguide.dev/docs/extra-chapter/multithreading/
   - https://en.wikipedia.org/wiki/Vulkan
+    - 한글 설명서
 
 - OpenGL
   - https://en.wikipedia.org/wiki/OpenGL
