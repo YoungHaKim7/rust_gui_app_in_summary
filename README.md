@@ -14,6 +14,7 @@
 |Thread|Multithreading|Singlethreading|
 
 - 그림으로 이해
+  - OpenGL and Vulkan are both rendering APIs. In both cases, the GPU executes shaders, while the CPU executes everything else.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Division_of_labor_cpu_and_gpu.svg/500px-Division_of_labor_cpu_and_gpu.svg.png" />
 
