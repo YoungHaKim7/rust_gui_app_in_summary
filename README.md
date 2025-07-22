@@ -310,3 +310,5 @@ https://google.github.io/comprehensive-rust/exercises/day-3/solutions-morning.ht
 
 <br>
 
+# 2D Graph scene in Rust - Gerhard de Clercq
+https://youtu.be/CtmIXaqIyeA?si=R83oE9De50nnZ1p-
