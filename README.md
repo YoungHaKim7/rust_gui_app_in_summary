@@ -32,6 +32,11 @@
 
 <hr />
 
+# WGPU 배우기
+- https://sotrh.github.io/learn-wgpu/
+
+<hr />
+
 # gpu-arena [|🔝|](#link)
 - [gpu-arena_비교해서 보기(readme.rst)](./001_GPU_arena/readme.rst)
 - https://github.com/Vincent-Therrien/gpu-arena
