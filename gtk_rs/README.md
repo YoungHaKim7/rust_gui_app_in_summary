@@ -1,3 +1,10 @@
+# rust (gtk4-rs)
+
+- https://github.com/gtk-rs/gtk4-rs
+
+
+<hr />
+
 # gir book 
 
 - https://gtk-rs.org/gir/book/
@@ -8,7 +15,7 @@
 
 - https://www.gtk.org/docs/language-bindings/rust
 
-# insatll 
+# intall 
 
 - https://github.com/gtk-rs/gtk-rs-core
 
