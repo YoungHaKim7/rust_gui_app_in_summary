@@ -3,6 +3,16 @@
 - https://github.com/gtk-rs/gtk4-rs
 
 
+# I’ve installed GTK 4 packages (version 4.14.2) on Ubuntu 24.04 LTS.
+
+- https://toshiocp.github.io/Gtk4-tutorial/sec2.html
+- Installation from the distribution packages
+  - This is the easiest way to install. I’ve installed GTK 4 packages (version 4.14.2) on Ubuntu 24.04 LTS.
+
+```bash
+$ sudo apt install libgtk-4-dev
+```
+
 <hr />
 
 # gir book 
