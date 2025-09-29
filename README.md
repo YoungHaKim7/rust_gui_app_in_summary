@@ -7,6 +7,9 @@
 
 <hr />
 
+# OpenGL배우기 좋은 곳
+- https://learnopengl.com/
+
 # Vulkan vs OpenGL[|🔝|](#link)
 
 ||Vulkan|OpenGL|
